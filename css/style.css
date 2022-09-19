@@ -1,0 +1,84 @@
+@charset "UTF-8";
+a{
+    color: inherit;
+}
+li:after, #contents::after{
+    display: block;
+    content: '';
+    clear: both;
+}
+header{
+    background-color: rgb(185, 203, 238);
+    color: azure;
+}
+.header_in{
+    width: 1200px;
+    height: 100px;
+    margin: auto;
+}
+h1{
+    float: left;
+    line-height: 100px;;
+}
+nav{
+    position: absolute;
+    left: 50%;
+    margin-left: -200px;
+}
+nav ul{
+}
+
+nav li{
+    float: left;
+}
+nav a{
+    display: block;
+    margin: 0 10px;
+    font-size: 16px;
+    line-height: 100px;
+
+}
+nav button{
+    display: none;
+}
+.allBtn{
+    display: none;
+}
+.sign{
+    float: right;
+    line-height: 100px;
+}
+#visual{
+    height: 500px;
+    background-color: rgb(247, 208, 208);
+}
+#contents{
+    width: 1200px;
+    margin: auto;
+}
+section{
+    width: 25%;
+    float: left;
+    height: 300px;
+}
+.con1{
+    background: rgb(241, 238, 188);
+}
+.con2{
+    background: rgb(191, 238, 160);
+}
+.con3{
+    background: rgb(245, 238, 141);
+}
+.con4{
+    background: rgb(134, 238, 165);
+}
+footer{
+    background-color: rgb(167, 195, 247);
+
+}
+.footer_in{
+    height: 50px;
+    margin: auto;
+    width: 1200px;
+}
